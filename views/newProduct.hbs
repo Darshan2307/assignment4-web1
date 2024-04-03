@@ -1,0 +1,34 @@
+<form action="/api/products" method="post">
+  <label for="asin">ASIN:</label>
+  <input type="text" id="asin" name="asin"><br>
+
+  <label for="imgUrl">Image URL:</label>
+  <input type="text" id="imgUrl" name="imgUrl"><br>
+
+  <label for="stars">Stars:</label>
+  <input type="number" id="stars" name="stars"><br>
+
+  <label for="reviews">Reviews:</label>
+  <input type="number" id="reviews" name="reviews"><br>
+
+  <label for="price">Price:</label>
+  <input type="number" id="price" name="price"><br>
+
+  <label for="listPrice">List Price:</label>
+  <input type="number" id="listPrice" name="listPrice"><br>
+
+  <label for="categoryName">Category Name:</label>
+  <input type="text" id="categoryName" name="categoryName"><br>
+
+  <label for="isBestSeller">Is Best Seller:</label>
+  <select id="isBestSeller" name="isBestSeller">
+    <option value="true">True</option>
+    <option value="false">False</option>
+  </select><br>
+
+  <label for="boughtInLastMonth">Bought In Last Month:</label>
+  <input id="boughtInLastMonth" name="boughtInLastMonth" type="number">
+    <br>
+
+  <button type="submit">Submit</button>
+</form>
